@@ -1,5 +1,5 @@
 # Timeline-With-Recycler-View
 
-![Alt text](/master/Screenshots/screenshot-1.jpeg?raw=true "Timeline with recycler view")
+![Timeline with recycler view](https://raw.githubusercontent.com/mayursojitra/Timeline-With-Recycler-View/master/Screenshots/screenshot-1.jpeg)
 
-![Alt text](/master/Screenshots/demo-video.mp4?raw=true "Timeline with recycler view video demo")
+![Timeline with recycler view video demo](https://raw.githubusercontent.com/mayursojitra/Timeline-With-Recycler-View/master/Screenshots/demo-video.mp4)
