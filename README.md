@@ -1,5 +1,11 @@
 # Timeline-With-Recycler-View
 
-![Timeline with recycler view](https://raw.githubusercontent.com/mayursojitra/Timeline-With-Recycler-View/master/Screenshots/screenshot-1.jpeg)
+Timeline UI using Recycler View
 
-[![Timeline with recycler view video demo](https://raw.githubusercontent.com/mayursojitra/Timeline-With-Recycler-View/master/Screenshots/screenshot-1.jpeg)](https://www.youtube.com/watch?v=Sv7N_2fb7JI)
+# Getting Started
+
+Clone project and update recycler view adapter and you are done
+
+# Screenshots
+
+![Timeline with recycler view](https://raw.githubusercontent.com/mayursojitra/Timeline-With-Recycler-View/master/Screenshots/screenshot-1.jpeg)
