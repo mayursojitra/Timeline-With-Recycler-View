@@ -12,12 +12,12 @@ Clone project and update recycler view adapter and you are done
 
 # Libraries
 
-![Recycler View](https://developer.android.com/reference/android/support/v7/widget/RecyclerView)
+..* [Recycler View](https://developer.android.com/reference/android/support/v7/widget/RecyclerView)
 
 # Author
 
-![Mayur Sojitra](https://www.linkedin.com/in/mayursojitra/)
+..* [Mayur Sojitra](https://www.linkedin.com/in/mayursojitra/)
 
 # Blog
 
-![The Android Mania](https://www.theandroid-mania.com/)
+..* [The Android Mania](https://www.theandroid-mania.com/)
