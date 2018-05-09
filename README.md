@@ -22,4 +22,5 @@ Clone project and update recycler view adapter and you are done
 
 - [The Android Mania](https://www.theandroid-mania.com/)
 
-:+1: @Happy @Coding!!!
+       
+       :+1: **Happy Coding!!!**
