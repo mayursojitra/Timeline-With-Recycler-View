@@ -6,11 +6,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-
 import java.util.List;
 
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyViewHolder> {
+import prodevelopers.timelinewithrecyclerview.model.ItemHolderView;
+
+public class RecyclerAdapter extends RecyclerView.Adapter<ItemHolderView> {
 
     private List<Integer> moviesList;
     private Activity mContext;
@@ -22,15 +22,15 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
 
     @NonNull
     @Override
-    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ItemHolderView onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_row, parent, false);
 
-        return new MyViewHolder(itemView);
+        return new ItemHolderView(itemView);
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onBindViewHolder(ItemHolderView holder, int position) {
         int s = moviesList.get(position);
         holder.ivDivider.setImageDrawable(mContext.getResources().getDrawable(s));
 
@@ -39,14 +39,5 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
     @Override
     public int getItemCount() {
         return moviesList.size();
-    }
-
-    public class MyViewHolder extends RecyclerView.ViewHolder {
-        public ImageView ivDivider;
-
-        public MyViewHolder(View view) {
-            super(view);
-            ivDivider = (ImageView) view.findViewById(R.id.ivDivider);
-        }
     }
 }
