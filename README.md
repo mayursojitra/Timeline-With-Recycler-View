@@ -31,8 +31,10 @@ Clone project and update recycler view adapter and you are done
 - [People per hour](http://pph.me/mayursojitra)
 - [UpWork](https://www.upwork.com/freelancers/~019d3db2c3f08414b8)
 
-- [Mail me](mailto:hello@murait.com)
-- [Contact Us](https://www.theandroid-mania.com/contact)
+# Contact Me
+
+- [**Mail me**](mailto:hello@murait.com)
+- [**Contact Us**](https://www.theandroid-mania.com/contact)
 
 
 
