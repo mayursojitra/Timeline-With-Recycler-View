@@ -12,12 +12,12 @@ import prodevelopers.timelinewithrecyclerview.model.ItemHolderView;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<ItemHolderView> {
 
-    private List<Integer> moviesList;
+    private List<Integer> dataList;
     private Activity mContext;
 
-    public RecyclerAdapter(List<Integer> moviesList, Activity mContext) {
-        this.moviesList = moviesList;
-        this.mContext = mContext;
+    public RecyclerAdapter(List<Integer> mList, Activity ctx) {
+        dataList = mList;
+        mContext = ctx;
     }
 
     @NonNull
@@ -31,13 +31,13 @@ public class RecyclerAdapter extends RecyclerView.Adapter<ItemHolderView> {
 
     @Override
     public void onBindViewHolder(ItemHolderView holder, int position) {
-        int s = moviesList.get(position);
+        int s = dataList.get(position);
         holder.ivDivider.setImageDrawable(mContext.getResources().getDrawable(s));
 
     }
 
     @Override
     public int getItemCount() {
-        return moviesList.size();
+        return dataList.size();
     }
 }
